@@ -1,0 +1,29 @@
+@import url(https://fonts.googleapis.com/css?family=Arvo:regular,italic,700,700italic);
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @layer base {
+        @font-face {
+            font-family: "Segoe Ui";
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(/src/assets/fonts/normal.woff2) format("woff2");
+        }
+        @font-face {
+            font-family: "Segoe Ui";
+            font-style: bold;
+            font-weight: 700;
+            font-display: swap;
+            src: url(/src/assets/fonts/bold.woff2) format("woff2");
+        }
+    }
+}
+
+@layer components {
+    .btn {
+        @apply px-8 py-3 duration-300 rounded-xl uppercase pb-4 font-bold;
+    }
+}
