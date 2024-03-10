@@ -1,7 +1,7 @@
 # Eduphiser
 <hr/>
 
-### Live Link: eduphiser.vercel.app
+### Live Link: http://eduphiser.vercel.app
 
 ## For running on local computer
 
