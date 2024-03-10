@@ -10,7 +10,7 @@ export default function Header() {
                 </div>
 
                 {/* Menu Part */}
-                <ul className='hidden xl:flex gap-8'>
+                <ul className='hidden 2xl:flex gap-8'>
                     <li>
                         <a href='#'>Educational Loan</a>
                     </li>
@@ -32,7 +32,7 @@ export default function Header() {
                 </ul>
 
                 {/* Menu Buttons */}
-                <div className='hidden xl:flex gap-4'>
+                <div className='hidden 2xl:flex gap-4'>
                     <button className='btn border border-c-blue'>
                         <i className='ri-login-box-line mr-1' /> Login
                     </button>
@@ -40,7 +40,7 @@ export default function Header() {
                 </div>
 
                 {/* Menu hamburger */}
-                <i className='ri-menu-3-line text-3xl xl:hidden' />
+                <i className='ri-menu-3-line text-3xl 2xl:hidden' />
             </div>
         </header>
     );
