@@ -22,6 +22,9 @@ export default {
                 "c-offWhite": "#F1F7FE",
                 "c-yellow": "#FFC801",
             },
+            backgroundImage: {
+                "contact-banner": "url('./src/assets/img/contactBanner.png')",
+            },
         },
     },
     plugins: [],

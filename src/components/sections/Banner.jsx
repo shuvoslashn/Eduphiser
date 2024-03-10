@@ -1,8 +1,8 @@
 export default function Banner() {
     return (
-        <section className="px-24">
-            <h2 className='text-4xl'>Contact Us</h2>
-            <p>Home {">"} Contact Us</p>
+        <section className='mx-4 md:mx-24 py-16 md:py-40 bg-contact-banner rounded-2xl md:rounded-[40px] bg-center bg-cover bg-no-repeat text-center text-white'>
+            <h2 className='text-4xl md:text-6xl font-bold'>Contact Us</h2>
+            <p className='font-bold text-2xl mt-4'>Home {">"} Contact Us</p>
         </section>
     );
 }
